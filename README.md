@@ -26,6 +26,6 @@ user@computer:~/yolo_app$ conda env create -f pyqt.yaml
 if your env was created perfectly, execute this to enter inside of him:
 
 ```console
-user@computer:~/ conda activate pyqt
+user@computer:~/yolo_app$ conda activate pyqt
 ```
 ### 3. executing yolo_app interface.
