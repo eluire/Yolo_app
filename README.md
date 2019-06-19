@@ -1,31 +1,61 @@
+[!img](icons/Captura de tela de 2019-06-19 16-28-29.png)
+
 # Yolo_app
-A visual interface developed with python to support in object detection tests and output visualization. This application uses Yolo convolutional neural network as a base to detect objects.
 
-## getting started
-In this tutorial, we use Linux as OS, anaconda as environmental management and some packages like OpenCV, pyqt, and others. If you don't know some of these tools, check in the reference section to access the official documentation.
+A visual interface developed with python to support object detection tests and output visualization. This application uses the YOLO convolutional neural network as a base object detector.
 
-## steps to use
-### 1. installing and setting Yolo CNN.
-First you need clone the official repository containing a Yolo CNN, to this , run this command on your console:
+## Getting started
+
+In this tutorial, we use the Linux OS, Anaconda as an environment manager and some modulos like OpenCV, pyqt, and others. If you don't know some of these tools, check in the reference section to access the official documentation.
+
+### Installing and configure Yolo CNN.
+
+First, you need to configure your system to run YOLO CNN, to this, visit
+the following repository. [Click here](https://github.com/vanluwin/enviroment)
+https://github.com/vanluwin/enviroment)
+
+After this, you are able to execute the YOLO CNN, in this repository, we provide a folder called darknet, open it and run the following command in your terminal
+
 ```console
-user@computer:~$ git clone https://github.com/AlexeyAB/darknet.git
+user@computer:~$ make
 ```
-Now click [here](https://pjreddie.com/darknet/yolo/) to visit the official site and setting your directory correctly, remember to check if your system configuration is available.
+Now if you want to know more about how the YOLO Convolutional neural network works, visit these sites.[Official repository](https://pjreddie.com/darknet/yolo/) [Official site](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
 
-After this, move darknet  to inside the yolo_app directory:
-```console
-user@computer:~$ mv -r darknet yolo_app
-```
-### 2. create a new virtual environment.
-we make available a file named *pyqt.yaml* no more than a complete setup with all needest packages to run this app.
-run this command in your terminal:
+## Weigths
+
+We make available to you a specific weight file to vehicles detection, if you want to download this file click on the following link.[Click here](link_pro_download)
+
+If you want to know how we create this weight file, see all of the statistics and detection metrics and more about our job with image processor and object detection, check the following link.[Click here](link para artigo)
+
+But if you have your own file of weights just move to the darknet folder.
+
+### Create a new virtual environment.
+
+We make available a file named *pyqt.yaml*, which is no more than a complete setup with all needed packages to run this app.
+
+Run the following command in your console:
 
 ```console
 user@computer:~/yolo_app$ conda env create -f pyqt.yaml
 ```
-if your env was created perfectly, execute this to enter inside of him:
+
+If your environment was created correctly, execute this to enter activate it:
 
 ```console
 user@computer:~/yolo_app$ conda activate pyqt
 ```
-### 3. executing yolo_app interface.
+
+So now let's get started with Yolo app!
+
+## Steps to use
+
+### Executing the yolo_app interface.
+
+Inside of your virtual environment run the following command:
+
+```console
+user@computer:~/yolo_app$ python yolo.py
+```
+if all of the things are correct, you will see this screen.
+
+[!img](Captura de tela de 2019-06-19 16-40-43.png)
