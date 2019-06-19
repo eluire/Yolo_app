@@ -6,20 +6,26 @@ A visual interface developed with python to support object detection tests and o
 
 ## Getting started
 
-In this tutorial, we use the Linux OS, Anaconda as an environment manager and some modulos like OpenCV, pyqt, and others. If you don't know some of these tools, check in the reference section to access the official documentation.
+### Clone the repository
+
+The first thing you should do is clone this repository to your computer. To this run the following command in your terminal.
+
+```console
+user@computer:~$ git clone https://github.com/eluire/Yolo_app.git
+```
 
 ### Installing and configure Yolo CNN.
 
 First, you need to configure your system to run YOLO CNN, to this, visit
-the following repository. [Click here](https://github.com/vanluwin/enviroment)
+the following repository.[Click here](https://github.com/vanluwin/enviroment)
 https://github.com/vanluwin/enviroment)
 
 After this, you are able to execute the YOLO CNN, in this repository, we provide a folder called darknet, open it and run the following command in your terminal
 
 ```console
-user@computer:~$ make
+user@computer:~/yolo_app/darknet$ make
 ```
-Now if you want to know more about how the YOLO Convolutional neural network works, visit these sites.[Official repository](https://pjreddie.com/darknet/yolo/) [Official site](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
+Now if you want to know more about how the YOLO Convolutional neural network works, visit these sites.[Official repository](https://pjreddie.com/darknet/yolo/), [Official site](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
 
 ### Weigths
 
@@ -54,8 +60,8 @@ So now let's get started with Yolo app!
 Inside of your virtual environment run the following command:
 
 ```console
-user@computer:~/yolo_app$ python yolo.py
+[pyqt]user@computer:~/yolo_app$ python yolo.py
 ```
-if all of the things are correct, you will see this screen.
+if everything is correct, you will see this screen.
 
 ![img](./icons/screen.png)
