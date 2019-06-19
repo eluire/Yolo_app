@@ -1,4 +1,4 @@
-[!img](icons/Captura de tela de 2019-06-19 16-28-29.png)
+![img](icons/Captura de tela de 2019-06-19 16-28-29.png)
 
 # Yolo_app
 
