@@ -1,6 +1,6 @@
-![img](./icons/demonstration_img.png)
-
 # Yolo_app
+
+![img](./icons/demonstration_img.png)
 
 A visual interface developed with python to support object detection tests and output visualization. This application uses the YOLO convolutional neural network as a base object detector.
 
@@ -58,4 +58,4 @@ user@computer:~/yolo_app$ python yolo.py
 ```
 if all of the things are correct, you will see this screen.
 
-[!img](Captura de tela de 2019-06-19 16-40-43.png)
+[!img](./icons/screen.png)
