@@ -21,7 +21,7 @@ user@computer:~$ make
 ```
 Now if you want to know more about how the YOLO Convolutional neural network works, visit these sites.[Official repository](https://pjreddie.com/darknet/yolo/) [Official site](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
 
-## Weigths
+### Weigths
 
 We make available to you a specific weight file to vehicles detection, if you want to download this file click on the following link.[Click here](link_pro_download)
 
@@ -58,4 +58,4 @@ user@computer:~/yolo_app$ python yolo.py
 ```
 if all of the things are correct, you will see this screen.
 
-[!img](./icons/screen.png)
+![img](./icons/screen.png)
