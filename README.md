@@ -74,18 +74,18 @@ Now you should choose some essential files. If you already have your setup to te
 *1. Select the video file.*
 Obs: this is a video that you want to detect.
 
-![video_pick](pick_video.gif)
+![video_pick](icons/pick_video.gif)
 
 *2. Select the weight file.*
 
-![weight_pick](pick_weigths.gif)
+![weight_pick](icons/pick_weigths.gif)
 
 *3. Select the data file.*
 Obs: this is file contains information about the classes to detection.
 
-![data_pick](pick_data.gif)
+![data_pick](icons/pick_data.gif)
 
 *4. Select the cfg file.*
 Obs: this is file contains a convolutional neural network configuration.
 
-![cfg_pick](pick_cfg.gif)
+![cfg_pick](icons/pick_cfg.gif)
