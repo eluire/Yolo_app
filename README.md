@@ -97,3 +97,14 @@ Obs: this is file contains information about the classes to detection.
 Obs: this is file contains a convolutional neural network configuration.
 
 ![cfg_pick](icons/pick_cfg.gif)
+
+If everything is correct, you can star the detection. When the detection was finished the Yolo app will save two files, video_detected.avi and video_detected.txt respectively. this last one contains information about all of the detected vehicles and their respective bounding boxes.
+
+*gif start_video_detection*
+
+Now you can play your video already detected just select it and press play video stream button.
+
+![video_stream](icons/video_stream.gif)
+
+
+## Conclusion
