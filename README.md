@@ -71,21 +71,24 @@ if everything is correct, you will see this screen.
 
 Now you should choose some essential files. If you already have your setup to test feel free to select other files. In this repository we make available default files to your test, just follow the steps below to set your test setup.
 
-*1. Select the video file.*
+**1. Select the video file.**
+
 Obs: this is a video that you want to detect.
 
 ![video_pick](icons/pick_video.gif)
 
-*2. Select the weight file.*
+**2. Select the weight file.**
 
 ![weight_pick](icons/pick_weigths.gif)
 
-*3. Select the data file.*
+**3. Select the data file.**
+
 Obs: this is file contains information about the classes to detection.
 
 ![data_pick](icons/pick_data.gif)
 
-*4. Select the cfg file.*
+**4. Select the cfg file.**
+
 Obs: this is file contains a convolutional neural network configuration.
 
 ![cfg_pick](icons/pick_cfg.gif)
