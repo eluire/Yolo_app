@@ -152,27 +152,46 @@ class Ui_MainWindow(object):
         self.video_key = False
 
     def exit_video(self):
-        self.video_flag = True #flag para parar o video
+        self.video_flag = True #flag to stop the video 
 
     def detect(self):
 
-        video_pre = self.video_file_name[0]
-        # concertar tratamento de erros
-        '''try:
+        try:
+            video_pre = self.video_file_name[0]
+        except:
+            self.status = "Error in video file"
+            self.statuslabel.setText(self.status)
+            return -1
+
+        try:
             weight = self.weight_file_name[0]
-        except WEIGHT_PRE_ERROR:
-            self.status = "Erro no arquivo de peso selecionado"
-            self.statuslabel.setText(self.status)'''
-        weight = self.weight_file_name[0]
-        _data = self.data_file_name[0]
-        _cfg = self.data_file_name[0]
+        except:
+            self.status = "Error in weight file"
+            self.statuslabel.setText(self.status)
+            return -1
+
+        try:
+            _data = self.data_file_name[0]
+        except:
+            self.status = "Error in data file"
+            self.statuslabel.setText(self.status)
+            return -1
+
+        try:
+            _cfg = self.cfg_file_name[0]
+        except:
+            self.status = "Error in cfg file"
+            self.statuslabel.setText(self.status)
+            return -1
+
         cont = self.cont
 
         try:
-            os.system(f'./darknet/darknet detector demo {_data} {_cfg} {weight} {video_pre} -out_filename video_detected{cont}.avi -dont_show -ext_output > video_detected{cont}.txt &')
-        except PATH_ERROR:
-            self.status = "Erro no path do diretorio darknet"
+            os.system(f'./darknet/darknet detector demo {_data} {_cfg} {weight} {video_pre} -out_filename video_detected/video_detected{cont}.avi -dont_show -ext_output > video_detected/video_detected{cont}.txt &')
+        except:
+            self.status = "Error in darknet directory path"
             self.statuslabel.setText(self.status)
+            return -1
         else:
             self.status = "detecting"
             self.statuslabel.setText(self.status)
