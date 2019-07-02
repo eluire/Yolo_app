@@ -30,7 +30,7 @@ If you want to know more about how the YOLO Convolutional neural network works, 
 
 ### Weigths
 
-We make available to you a specific weight file to vehicles detection, if you want to download this file click on the following link.[Click here](link_pro_download)
+We make available to you a specific weight file to vehicles detection, if you want to download this file click on the following link and save in this path: Yolo_app/darknet/weigths .[Click here](https://drive.google.com/drive/folders/1WGmJZSl24fVl7OyyjRPK-puxW08kcu82?usp=sharing)
 
 If you want to know how we create this weight file, see all of the statistics,detection metrics and more about our job with image processor and object detection, check the following link.[Click here](link para artigo)
 
