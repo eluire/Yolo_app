@@ -152,7 +152,7 @@ class Ui_MainWindow(object):
         self.video_key = False
 
     def exit_video(self):
-        self.video_flag = True #flag to stop the video 
+        self.video_flag = True #flag to stop the video
 
     def detect(self):
 
@@ -187,7 +187,7 @@ class Ui_MainWindow(object):
         cont = self.cont
 
         try:
-            os.system(f'./darknet/darknet detector demo {_data} {_cfg} {weight} {video_pre} -out_filename video_detected/video_detected{cont}.avi -dont_show -ext_output > video_detected/video_detected{cont}.txt &')
+            os.system(f'./darknet/darknet detector demo {_data} {_cfg} {weight} {video_pre} -out_filename video_detected{self.cont}.avi -dont_show')
         except:
             self.status = "Error in darknet directory path"
             self.statuslabel.setText(self.status)
