@@ -199,8 +199,10 @@ class Ui_MainWindow(object):
         self.cont +=1
 
         os.system('clear')
-        #self.status = "detected"
-        #self.statuslabel.setText(self.status)
+        os.system('echo detection finalized')
+        
+        self.status = "detected"
+        self.statuslabel.setText(self.status)
 
     def opcv_tread(self):
 
