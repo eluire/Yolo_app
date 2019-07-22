@@ -24,7 +24,7 @@ After this, you are able to execute the YOLO CNN, in this repository, we provide
 
 
 ```console
-user@computer:~/yolo_app/darknet_$ make
+user@computer:~/yolo_app/darknet$ make
 ```
 If you want to know more about how the YOLO Convolutional neural network works, visit these sites.[Official repository](https://pjreddie.com/darknet/yolo/), [Official site](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
 
