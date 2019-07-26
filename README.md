@@ -28,9 +28,9 @@ user@computer:~/yolo_app/darknet$ make
 ```
 If you want to know more about how the YOLO Convolutional neural network works, visit these sites.[Official repository](https://pjreddie.com/darknet/yolo/), [Official site](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
 
-### Weigths
+### Weights
 
-We make available to you a specific weight file to vehicles detection, if you want to download this file click on the following link and save in this path: Yolo_app/darknet/weigths .[Click here](https://drive.google.com/open?id=1Z1u60jP17lbBHNh4p54djT_Jdbvh10Pz)
+We make available to you a specific weight file to vehicles detection, if you want to download this file click on the following link and save in this path: Yolo_app/darknet/weights .[Click here](https://drive.google.com/open?id=1Z1u60jP17lbBHNh4p54djT_Jdbvh10Pz)
 
 If you want to know how we create this weight file, see all of the statistics,detection metrics and more about our job with image processor and object detection, check the following link.[Click here](link para artigo)
 
